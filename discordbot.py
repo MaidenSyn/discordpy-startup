@@ -67,4 +67,3 @@ async def ping(ctx):
 
 
 bot.run(token)
-^^^^^^^^somehow i think the names array took the bot offline^^^^^^^^^
