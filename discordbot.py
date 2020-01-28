@@ -30,13 +30,13 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 
-async def ping(ctx):
+async def challenge(ctx):
     
-    names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
+    chas = ['cha1', 'cha2', 'cha3', 'cha4', 'cha5', 'cha6', 'cha7']
 
-    random_name = random.choice(names)
+    random_chas = random.choice(chas)
 
-    await ctx.send(random_name)
+    await ctx.send(random_chas)
 
 
 
