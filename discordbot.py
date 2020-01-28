@@ -15,7 +15,6 @@ token = os.environ['BOT_TOKEN']
 
 
 
-
 @bot.event
 
 async def on_command_error(ctx, error):
@@ -28,13 +27,6 @@ async def on_command_error(ctx, error):
 
 
 
-names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
-
-random_name = random.choice(names)
-
-
-
-
 
 @bot.command()
 
@@ -44,12 +36,7 @@ names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
 
 random_name = random.choice(names)
 
-
     await ctx.send(random_name)
-
-
-
-
 
 
 
