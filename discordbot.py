@@ -1,4 +1,4 @@
-from discord.ext import commands
+rom discord.ext import commands
 
 import os
 
@@ -28,7 +28,25 @@ async def on_command_error(ctx, error):
 
 
 
-names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
+Sam = 'Hi my name is Sam'
+
+Paul = 'Hi my name is Paul'
+
+Mark = 'Hi my name is Mark'
+
+Simon = 'Hi my name is Simon'
+
+Sean = 'Hi my name is Sean'
+
+Samantha = 'Hi my name is Samantha'
+
+Ellen = 'Hi my name is Ellen'
+
+
+
+
+
+names = [ Sam, Paul, Mark, Simon, Sean, Samantha, Ellen]
 
 random_name = random.choice(names)
 
@@ -49,3 +67,4 @@ async def ping(ctx):
 
 
 bot.run(token)
+^^^^^^^^somehow i think the names array took the bot offline^^^^^^^^^
