@@ -32,9 +32,9 @@ async def on_command_error(ctx, error):
 
 async def ping(ctx):
     
-names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
+    names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
 
-random_name = random.choice(names)
+    random_name = random.choice(names)
 
     await ctx.send(random_name)
 
