@@ -16,7 +16,6 @@ async def on_command_error(ctx, error):
 names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
 random_name = random.choice(names)
 
-print(random_name)
 
 @bot.command()
 async def ping(ctx):
