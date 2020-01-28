@@ -39,6 +39,11 @@ random_name = random.choice(names)
 @bot.command()
 
 async def ping(ctx):
+    
+names = ['Sam', 'Paul', 'Mark', 'Simon', 'Sean', 'Samantha', 'Ellen']
+
+random_name = random.choice(names)
+
 
     await ctx.send(random_name)
 
